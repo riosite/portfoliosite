@@ -49,6 +49,7 @@ span {
     opacity: 0.5;
 }
 h2 {
+    position: relative;
     font-family: "ivypresto-display", serif;
     font-weight: 300;
     font-style: italic;
@@ -56,7 +57,8 @@ h2 {
     color: #2b4d8c;
     font-size: 7.2rem;
     text-shadow: 160px 60px 11px #2b4d8c;
-    margin-bottom: 6rem;
+    margin: 0 0 6rem 10rem;
+    z-index: 4;
 }
 
 
@@ -171,7 +173,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     margin-top: -90px;
-    padding: 40px 100px 10px;
+    padding: 40px 0 10px;
 }
 
 
@@ -196,7 +198,7 @@ section {
     top: 0;
     left: 0;
     right: 0;
-    width: 740px;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -313,7 +315,7 @@ button {
 
 .skills {
     position: relative;
-    margin-bottom: 22rem;
+    margin-bottom: 12rem;
 }
 
 .skills h2 {
@@ -371,7 +373,8 @@ button {
 .works .outer {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
+    width: 85%;
+    margin: 0 auto 6rem;
 }
 
 .works .contents {
@@ -538,7 +541,7 @@ h3 {
     position: fixed;
     right: 0px;
     bottom: 0px;
-    width: 180px;
+    width: 12%;
     opacity: 0.7;
     z-index: 99;
     display: none;
@@ -667,6 +670,7 @@ h3 {
 
 footer {
     position: relative;
+    width: 100%;
     padding: 40px 100px 20px;
     background-color: #354e7d;
     z-index: 4;
@@ -675,7 +679,7 @@ footer {
 footer h2 {
     color: #FFFFFF;
     text-shadow: 16rem 6rem 1.1rem #FFFFFF;
-    margin-bottom: 8rem;
+    margin: 0 0 8rem 0;
 }
 
 footer p {
@@ -689,7 +693,7 @@ footer p {
 
 .mail {
     margin: 0 auto 4rem;
-    width: 60%;
+    width: 64%;
 }
 
 .mail a {
@@ -753,18 +757,26 @@ footer p {
 
 
 
-@media screen and (max-width: 1536px) {
+@media screen and (max-width: 1340px) {
 	
 
     .skills-box {
         padding-left: 15%;
     }
     
+    .skills-box {
+        top: 22%;
+    }
+
     .skills .contents {
         margin: 0 auto 6%;
     }
 
 
+
+    .mail {
+        width: 100%;
+    }
 
 
     .circles li {
@@ -779,10 +791,24 @@ footer p {
 
 
 
-@media screen and (max-width: 1310px) {
+@media screen and (max-width: 1200px) {
+
+
+    .about-img {
+        left: 5px;
+        width: 34%;
+    }
+
+    .about-box {
+        top: 200px;
+        right: 130px;
+    }
+
+
+
 
     .skills-bg {
-        width: 100%;
+        width: 95%;
     }
 
     .skills-box {
@@ -804,22 +830,91 @@ footer p {
 
 
 
-
-
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 980px) {
 	
-    main {
-        padding: 40px 20px 10px;
+    header {
+        padding: 0 10rem;
     }
 
-    .about-img {
-        left: 5px;
-        width: 300px;
+    nav {
+        position: fixed;
+        top: 0px;
+        left: 100%;
+        width: 100%;
+        height: 100%;
+        background-color: #000c36;
+        padding-top: 100px;
+        transition: 0.5s;
     }
+    .open nav {
+        left: 0px;
+    }
+    
+    nav .menu {
+        display: block;
+        height: 100%;
+        padding-bottom: 50px;
+        overflow-y: auto;
+    }
+    nav .menu a {
+        padding: 30px 0;
+        font-size: 30px;
+    }
+    header h1 {
+        z-index: 1;
+    }
+    .humburger {
+        width: 70px;
+        height: 60px;
+        margin-left: auto;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .humburger span {
+        width: 45px;
+        height: 2px;
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        transition: 0.3s;
+    }
+    .humburger span:nth-child(1) {
+        top: 12px;
+    
+    }
+    .humburger span:nth-child(2) {
+        top: 25px;
+    }
+    .humburger span:nth-child(3) {
+        top: 39px;
+    }
+    .open .humburger span:nth-child(1) {
+        top: 23px;
+        transform: rotate(315deg);
+    }
+    .open .humburger span:nth-child(2) {
+        width: 0;
+        left: 50%;
+    }
+    .open .humburger span:nth-child(3) {
+        top: 23px;
+        transform: rotate(-315deg);
+    }
+    
 
-    .about-box {
-        top: 200px;
-        right: 120px;
+
+
+
+
+
+
+
+
+    .skills h2 {
+        margin-bottom: -7rem;
     }
 
     .skills-bg {
@@ -834,15 +929,17 @@ footer p {
 
     .skills-box {
         width: 80%;
-        top: 22%;
+        top: 18%;
         padding-left: 17%;
     }
 
-
-
-
     .skills .icon {
         width: 8%;
+    }
+
+
+    .mail p {
+        font-size: 48px;
     }
 
 
@@ -858,23 +955,66 @@ footer p {
 
 
 
-@media screen and (max-width: 890px) {
 
-    .skills-box {
-        width: 86%;
-        top: 16%;
-        padding-left: 10%;
+
+@media screen and (max-width: 780px) {
+
+
+
+    h2 {
+        margin-left: 2rem;
     }
 
-}
+
+    .about .wrapper {
+        width: 90%;
+        height: 640px;
+        background-image: url(../img/about-bg.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+
+    .about-bg {
+        display: none;
+    }
+    
+    .about-box {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 72%;
+        margin-left: auto;
+    }
+
+    .about-img {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .about .name2 {
+        margin-bottom: 3rem;
+    }
+
+    .about .text2 {
+        margin: 20px 0;
+    }
 
 
 
+    .skills h2 {
+        color: #fff;
+        text-shadow: 160px 60px 11px #fff;
+        margin-bottom: 7rem;
+    }
 
-
-
-
-@media screen and (max-width: 760px) {
+    .skills {
+        position: relative;
+        width: 100%;
+        background-color: rgba(43, 77, 140,0.8);
+        padding: 20px 0;
+    }
 
     .skills-bg2 {
         display: none;
@@ -882,16 +1022,26 @@ footer p {
 
     .skills-box {
         position: relative;
-        width: 95%;
-        background-color: rgba(43, 77, 140,0.8);
-        padding: 40px 10px 10px 40px;
+        width: 80%;
+        padding-left: 0;
     }
 
-    .skills-box:before {
-        position: absolute;
-        inset: 10px -10px -10px 10px;
-        border: 1px solid #fff;
-        content: '';
+
+    footer {
+        padding: 20px;
+    }
+
+    .mail {
+        width: 85%;
+    }
+
+    .mail img {
+        width: 10%;
+        margin-right: 1rem;
+    }
+
+    .mail p {
+        font-size: 36px;
     }
 
 
@@ -904,12 +1054,55 @@ footer p {
 
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 580px) {
 
     body {
         font-size: 14px;
     }
     
+    h2 {
+        letter-spacing: 2px;
+        font-size: 5.2rem;
+        text-shadow: 76px 50px 9px #2b4d8c;
+    }
+    
+    
+    .about .wrapper {
+        width: 95%;
+        height: 380px;
+        background-position: bottom center;
+        margin-top: -18%;
+    }
+
+    .about-box {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .about .name1 {
+        font-size: 18px;
+        letter-spacing: 12px;
+    }
+
+    .about .name2 {
+        font-size: 14px;
+        letter-spacing: 6px;
+    }
+
+    .about-img {
+        top: 62px;
+        left: 205px;
+    }
+
+
+    .skills {
+        margin-bottom: 0;
+    }
+
+    .skills h2 {
+        text-shadow: 76px 50px 9px #fff
+    }
+
     .skills-bg {
         width: 100%;
     }
@@ -917,6 +1110,43 @@ footer p {
 
 
 
+    .works .outer {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .works .contents {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .works .web-img, .works .banner-img, .works .logo-img {
+        margin-bottom: 2rem;
+    }
+
+
+
+
+
+    footer h2 {
+        text-shadow: 4px 4px 12px #fff;
+        margin-bottom: 2rem;
+    }
+
+    .mail {
+        width: 100%;
+        margin: 0 auto 2rem;
+    }
+
+    .mail img {
+        width: 8%;
+        margin-bottom: 0;
+    }
+
+    .mail p {
+        font-size: 22px;
+    }
 
 
     .circles li {
