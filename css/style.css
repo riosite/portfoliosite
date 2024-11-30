@@ -436,12 +436,8 @@ button {
     box-shadow: inset 0 0 30px 1px #eadfef;
 }
 
-.detail .web-img {
-    width: 100%;
-}
-
 .title {
-    margin: 18rem 0 2rem;
+    margin: 18rem 10rem 2rem;
     padding: 0 0 4rem;
     border-bottom: 1px solid rgba(255,255,255,0.4);
 }
@@ -482,7 +478,13 @@ button {
     transform: scale(1, 1); /* 下線を横方向に1倍、縦方向に1倍に変形（表示） */
 }
 
+.detail .web-img {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .detail .box {
+    width: 90%;
     position: relative;
     background-color: rgba(255,255,255,0.2);
     margin: 4rem auto;
@@ -526,9 +528,9 @@ h3 {
 }
 
 #all-works h2 {
+    margin: 0 10rem 6rem;
     text-shadow: none;
     border-bottom: 1px solid #2b4d8c;
-    font-size: 68px;
     padding-top: 2rem;
 }
 
@@ -552,6 +554,58 @@ h3 {
 }
 
 
+
+
+
+
+footer {
+    position: relative;
+    width: 100%;
+    padding: 40px 100px 20px;
+    background-color: #354e7d;
+    z-index: 4;
+}
+
+footer h2 {
+    color: #FFFFFF;
+    text-shadow: 16rem 6rem 1.1rem #FFFFFF;
+    margin: 0 0 8rem 0;
+}
+
+footer p {
+    font-family: "ivypresto-display", serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.mail {
+    margin: 0 auto 4rem;
+    width: 64%;
+}
+
+.mail a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.2rem solid #FFFFFF;
+}
+
+.mail img {
+    margin-right: 2rem;
+    margin-bottom: -0.6rem;
+}
+
+.mail p {
+    font-family: "ivypresto-display", serif;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 4px;
+    font-size: 6rem;
+}
 
 
 
@@ -665,75 +719,6 @@ h3 {
 }
 */
 
-
-
-
-footer {
-    position: relative;
-    width: 100%;
-    padding: 40px 100px 20px;
-    background-color: #354e7d;
-    z-index: 4;
-}
-
-footer h2 {
-    color: #FFFFFF;
-    text-shadow: 16rem 6rem 1.1rem #FFFFFF;
-    margin: 0 0 8rem 0;
-}
-
-footer p {
-    font-family: "ivypresto-display", serif;
-    font-weight: 100;
-    letter-spacing: 2px;
-    font-size: 14px;
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.mail {
-    margin: 0 auto 4rem;
-    width: 64%;
-}
-
-.mail a {
-    color: #FFFFFF;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    border-bottom: 0.2rem solid #FFFFFF;
-}
-
-.mail img {
-    margin-right: 2rem;
-    margin-bottom: -0.6rem;
-}
-
-.mail p {
-    font-family: "ivypresto-display", serif;
-    font-weight: 300;
-    font-style: italic;
-    letter-spacing: 4px;
-    font-size: 6rem;
-}
-
-
-
-
-
-.inview {
-    opacity: 0;
-    transform: translateY(100px);
-    transition: 1s;
-}
-.inview.fade-in {
-	opacity: 1;
-    transform: translateY(0);
-}
-
-
-
-
 @keyframes animate {
 
     0%{
@@ -748,6 +733,18 @@ footer p {
 
 }
 
+
+
+
+.inview {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 1s;
+}
+.inview.fade-in {
+	opacity: 1;
+    transform: translateY(0);
+}
 
 
 
@@ -951,7 +948,6 @@ footer p {
     }
     .humburger span:nth-child(1) {
         top: 20%;
-    
     }
     .humburger span:nth-child(2) {
         top: 44%;
@@ -1042,8 +1038,40 @@ footer p {
     }
 
     .skills .icon {
-        width: 10%;
+        width: 12%;
     }
+
+
+
+    /*detail*/
+    .title {
+        margin: 15rem 4rem 2rem;
+        padding: 0 0 2rem;
+    }
+
+    .title .main {
+        font-size: 22px;
+    }
+    
+    .detail .web-img {
+        width: 90%;
+    }
+
+    .detail .box {
+        width: 94%;
+        padding: 1rem 2rem 1rem 4rem;
+    }
+
+    .color-img {
+        width: 100%;
+    }
+
+    #all-works h2 {
+        margin: 0 2rem 6rem;
+        padding-top: 0;
+    }
+
+
 
 
 
@@ -1125,7 +1153,7 @@ footer p {
     
     h2 {
         letter-spacing: 2px;
-        font-size: 5.2rem;
+        font-size: 4rem;
         text-shadow: 76px 50px 9px #2b4d8c;
     }
     
@@ -1187,6 +1215,88 @@ footer p {
     .works .web-img, .works .banner-img, .works .logo-img {
         margin-bottom: 2rem;
     }
+
+
+
+    /*detail*/
+    .title {
+        margin: 12rem 2rem 1rem;
+    }
+
+    .title .mark {
+        font-size: 14px;
+    }
+
+    .title .main {
+        font-size: 16px;
+    }
+
+    .title .url {
+        font-size: 14px;
+    }
+
+    .title .url a {
+        word-break: break-all;
+    }
+
+    .detail .web-img {
+        width: 95%;
+    }
+
+    .detail .box {
+        width: 96%;
+        padding: 1rem 2rem 1rem 2.5rem;
+        margin: 2rem auto;
+    }
+
+    .detail .box:before {
+        inset: 5px -5px -5px 5px;
+    }
+
+    .detail .contents {
+        display: block;
+        margin: 4rem 0;
+    }    
+
+    .detail .contents:first-child {
+        margin-top: 2rem;
+    }
+
+    .detail .contents:last-child {
+        margin-bottom: 2rem;
+    }
+
+
+    h3 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .detail .contents p {
+        width: 100%;
+        margin-left: 1rem;
+    }
+
+    .detail .contents .inner {
+        width: 100%;
+        margin-left: 1rem;
+    }
+
+    .detail .contents .inner p {
+        margin-left: 0;
+    }
+
+    .color-img {
+        width: 100%;
+    }
+
+    #all-works h2 {
+        font-size: 40px;
+    }
+
+
+
+
 
 
 
