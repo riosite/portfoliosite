@@ -910,14 +910,14 @@ footer p {
         position: fixed;
         top: 0px;
         left: 100%;
-        width: 100%;
+        width: 40%;
         height: 100vh;
-        background-color: #392f5e;;
+        background-color: rgba(57, 47, 94,0.8);
         padding-top: 100px;
         transition: 0.5s;
     }
     .open nav {
-        left: 0px;
+        left: 60%;
     }
     
     header nav ul {
@@ -925,15 +925,15 @@ footer p {
         height: 100vh;
         overflow-y: auto;
     }
-    nav ul a {
-        padding: 30px 0;
-        font-size: 30px;
+    header nav li {
+        font-size: 32px;
+        margin: 50px 0;
     }
-    header h1 {
+        header h1 {
         z-index: 1;
     }
     .humburger {
-        width: 30px;
+        width: 40px;
         height: 40px;
         margin-left: auto;
         position: relative;
@@ -950,14 +950,14 @@ footer p {
         transition: 0.3s;
     }
     .humburger span:nth-child(1) {
-        top: 25%;
+        top: 20%;
     
     }
     .humburger span:nth-child(2) {
-        top: 42%;
+        top: 44%;
     }
     .humburger span:nth-child(3) {
-        top: 61%;
+        top: 70%;
     }
     .open .humburger span:nth-child(1) {
         top: 23px;
@@ -1086,10 +1086,33 @@ footer p {
 
 
     header {
-        height: 4.5rem;
+        height: 6rem;
         padding: 0 2rem;
     }
 
+    nav {
+        width: 60%;
+    }
+
+    .open nav {
+        left: 40%;
+    }
+
+
+
+    .humburger {
+        width: 30px;
+    }
+    
+    .humburger span:nth-child(1) {
+        top: 25%;
+    }
+    .humburger span:nth-child(2) {
+        top: 42%;
+    }
+    .humburger span:nth-child(3) {
+        top: 61%;
+    }
 
 
 
@@ -1191,6 +1214,7 @@ footer p {
 
     .pagetop {
         width: 90px;
+        opacity: 0.6;
     }
 
 
