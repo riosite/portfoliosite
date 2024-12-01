@@ -1212,8 +1212,9 @@ footer p {
     }
 
     .about-img {
-        top: 62px;
-        left: 205px;
+        width: 45%;
+        top: 55px;
+        left: 190px;
     }
 
 
@@ -1363,7 +1364,9 @@ footer p {
 
 
 
-
+    .area {
+        display: none;
+    }
 
     .circles li {
         bottom: -430px;
