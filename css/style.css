@@ -1062,7 +1062,7 @@ footer p {
     }
 
     .detail .box {
-        width: 94%;
+        width: 95%;
         padding: 1rem 2rem 1rem 4rem;
     }
 
@@ -1276,8 +1276,7 @@ footer p {
     }
 
     .detail .box {
-        width: 96%;
-        padding: 1rem 2rem 1rem 2.5rem;
+        padding: 1rem 2rem;
         margin: 2rem auto;
     }
 
@@ -1300,13 +1299,18 @@ footer p {
 
 
     h3 {
-        width: 100%;
-        margin-bottom: 1rem;
+        font-size: 14px;
+        background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 999rem;
+    display: inline-block;
+    padding: 4px 8px;
+    text-align: center;
+    margin-bottom: 1rem;
     }
 
     .detail .contents p {
         width: 100%;
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
 
     .detail .contents .inner {
@@ -1356,6 +1360,9 @@ footer p {
         border-bottom: 0.1rem solid #FFFFFF;
     }
 
+    footer p {
+        font-size: 10px;
+    }
 
     .pagetop {
         width: 90px;
