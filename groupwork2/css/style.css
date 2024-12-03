@@ -1153,7 +1153,7 @@ border-left: 10px solid transparent;
     right:0;
 	width: 10%;
 	opacity: 0.8;
-	z-index: 99;
+	z-index: 2;
 	display: none;
 }
 .text_circle {
