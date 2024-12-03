@@ -27,7 +27,7 @@ body {
     max-width: 640px;
 }
 main {
-    margin-top: 9rem;
+    margin-top: 8rem;
 
 }
 
@@ -252,10 +252,9 @@ nav {
     width: 100%;
     height: 100vh;
     background-color: rgba(89, 114, 88,1);
-    padding-top: 30%;
+    padding-top: 35%;
     transition: 0.5s;
     z-index: 1;
-    overflow: hidden;
 }
 
 .open nav {
@@ -337,6 +336,9 @@ html {
 .open nav {
     bottom: 0;
 }
+nav {
+    padding-top: 55%;
+}
 nav p {
     width: 75px;
 }
@@ -349,9 +351,22 @@ nav p {
 .sec-info iframe {
     height: 280px;
 }
+footer {
+    padding: 5rem 0 0;
+}
 
 }
 
 
 
+@media (max-width:400px){
+
+nav {
+    padding-top: 40%;
+}
+nav ul li {
+    margin-bottom: 0;
+}
+
+}
 
