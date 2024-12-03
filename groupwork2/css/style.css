@@ -1154,6 +1154,7 @@ border-left: 10px solid transparent;
 	width: 10%;
 	opacity: 0.8;
 	z-index: 99;
+	display: none;
 }
 .text_circle {
 	width: 100%;    /*文字サークルの大きさ*/
@@ -1658,7 +1659,7 @@ section {
 }
 .menu .comp {
     position: relative;
-    top:45%;
+    top:52%;
 	font-size: 26px;
 }
 .menu .comp1,
@@ -2098,7 +2099,7 @@ iframe {
 	
 /*ページトップボタン*/
 .page-top {
-	width: 12%;
+	width: 16%;
 }
 	
 	
