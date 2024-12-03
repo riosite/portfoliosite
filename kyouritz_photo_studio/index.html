@@ -12,15 +12,16 @@
 <div class="bg"><img src="img/bg-img.jpg" width="1600" height="1067" alt=""/></div>
 <div class="wrapper">
     <header>
-        <div class="logo">
-            <h1><a href="#top"><img src="img/logo.svg" alt="" width="82" height="65"/></a></h1>
-        </div>
-        <div class="nav-btn">
+        <h1 class="logo"><a href="#top"><img src="img/logo.svg" alt="" width="82" height="65"/></a></h1>
+
+        <div class="humburger">
             <span></span>
             <span></span>
             <span></span>
         </div>
+    
     </header>
+
     <nav>
         <ul>
             <li><a href="#top">TOP</a></li>
@@ -94,13 +95,13 @@
                 <h4>◆スタジオプラン◆</h4>
                 <p>【プラン内容】<br>
                     衣装、ヘアメイク、レタッチ、アルバム、写真データ<br>
-                \10,800~</p>
+                10,800~</p>
             </div>
             <div class="pln2">
                 <h4>◆ロケーションプラン◆</h4>
                 <p>【プラン内容】<br>
                     衣装、ヘアメイク、レタッチ、アルバム、写真データ<br>
-                \21,600~</p>
+                21,600~</p>
             </div>
         </section>
         <section class="sec-ranking" id="ranking">
@@ -191,5 +192,31 @@
         <p>©kyouritz photo studio Inc.</p>
     </footer>
 </div>
+
+
+<script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+
+<script>
+
+$(function(){
+
+    //.humburgerをクリックした時の設定
+    $(".humburger").on("click",function(){
+
+        //<body>にクラス名[open]を追加・削除
+        $("body").toggleClass("open");
+    });
+
+
+    //ナビゲーション（<nav>）内をクリックした時の設定
+    $(document).on("click","nav a",function(){
+
+        //ブラウザに.humburgerをクリックさせる
+        $(".humburger").trigger("click");
+    });
+
+});
+
+</script>
 </body>
 </html>
