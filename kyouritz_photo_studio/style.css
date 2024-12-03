@@ -9,7 +9,7 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    scroll-padding-top: 70px;
+    scroll-padding-top: 90px;
 }
 img {
     vertical-align: bottom;
@@ -27,7 +27,7 @@ body {
     max-width: 640px;
 }
 main {
-    margin-top: 8rem;
+    margin-top: 9rem;
 
 }
 
@@ -51,9 +51,9 @@ header {
     max-width: 640px;
     position: fixed;
     top: 0px;
-    z-index: 2;
-    height: 8rem;
+    height: 9rem;
     vertical-align: middle;
+    z-index: 2;
 }
 
 .logo {
@@ -74,7 +74,7 @@ nav {
 }
 nav ul  {
     list-style-type: none;
-    font-family: Engravers MT;
+    font-family: Engravers MT,serif;
     font-style: italic;
     text-shadow: 1px 1px 2px #FFFFFF;
     font-weight: bold;
@@ -216,7 +216,8 @@ h4  {
 footer {
     background-color: rgba(89,114,88,0.8);
     width: 100%;
-    padding: 2rem 0;
+    height: 60px;
+    padding: 5rem 0 0;
     max-width: 640px;
 }
 footer p {
@@ -239,20 +240,21 @@ nav {
     left: 0;
     margin: 0 auto;
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     background-color: rgba(89, 114, 88,1);
-    padding-top: 100px;
+    padding-top: 30%;
     transition: 0.5s;
     z-index: 1;
 }
 
 .open nav {
-    bottom: 30%;
+    bottom: 0;
 }
 
 nav ul {
     text-align: center;
     text-shadow: 1px 1px 2px #000000;
+    font-size: 2.4rem;
 }
 
 nav ul li a {
@@ -270,8 +272,8 @@ nav p {
     height: 62%;
     border: 1px solid #fff;
     position: relative;
-    left: 90%;
-    bottom: 74%;
+    left: 88%;
+    bottom: 70%;
     z-index: 3;
 }
 .humburger span {
@@ -294,19 +296,15 @@ nav p {
 .humburger span:nth-child(3) {
     top: 73%;
 }
-
-.open .humburger {
-    border: none;
-}
 .open .humburger span:nth-child(1) {
-    top: 23px;
+    top: 48%;
     transform: rotate(315deg);
 }
 .open .humburger span:nth-child(2) {
     display: none;
 }
 .open .humburger span:nth-child(3) {
-    top: 23px;
+    top: 48%;
     transform: rotate(-315deg);
 }
 
@@ -321,10 +319,6 @@ nav p {
 
 html {
     font-size: 1.56vw;
-}
-
-nav {
-    height: 100vh;
 }
 .open nav {
     bottom: 0;
@@ -343,3 +337,7 @@ nav p {
 }
 
 }
+
+
+
+
