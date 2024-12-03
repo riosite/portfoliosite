@@ -19,7 +19,7 @@ img {
 
 body {
 	text-shadow: 0px 0px;
-	font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: "Meiryo", sans-serif;
 	font-size: 1.8rem;
 	line-height: 1.7;
 	color: #0e0e0e;
@@ -654,6 +654,7 @@ footer .logo {
     padding: 0 8px 0 100px;
     border-top: solid 1.6px;
 	z-index: 3;
+	display: none;
 }
 
 .page-top::before {
@@ -771,6 +772,10 @@ header ul li a {
 
 @media (max-width:760px){
 
+body {
+	font-size: 14px;
+}
+
 header {
 	height: 7rem;
 	padding: 2rem 1rem;
@@ -865,7 +870,7 @@ header ul li {
 
 
 .mv p {
-	font-size: 250%;
+	font-size: 435%;
 	right: 2rem;
 	bottom: -1rem;
 }
@@ -973,6 +978,11 @@ p {
 	margin: 0 auto;
 	width: 100%;
 	text-align: center;
+}
+
+.style-box a {
+    max-width: 38%;
+    margin: 2%;
 }
 
 .staff-img {
