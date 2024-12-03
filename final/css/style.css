@@ -772,9 +772,6 @@ header ul li a {
 
 @media (max-width:760px){
 
-body {
-	font-size: 14px;
-}
 
 header {
 	height: 7rem;
@@ -886,7 +883,7 @@ header ul li {
 
 
 h2 {
-	font-size: 8rem;
+	font-size: 7rem;
 }
 
 h3 {
@@ -923,7 +920,8 @@ p {
 }
 
 .about h2 {
-	top:-9rem;
+	top:-8rem;
+	left: 1rem;
 }
 
 
@@ -932,6 +930,10 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 8rem 2rem 8rem;
+}
+
+.concept h2 {
+    top: -7rem;
 }
 
 .concept h3 {
@@ -966,6 +968,10 @@ p {
 	margin-right: auto;
 	padding: 8rem 2rem 2rem;
 	margin-top: 28rem;
+}
+
+.staff h2 {
+    top: -6rem;
 }
 
 .staff h3 {
@@ -1011,6 +1017,10 @@ p {
 	padding: 8rem 2rem 2rem;
 }
 
+.style h2 {
+    top: -6rem;
+}
+
 .style h3 {
 	top: 2rem;
     left: 14rem;
@@ -1034,7 +1044,7 @@ p {
 }
 
 .menu h2 {
-	top: -2rem;
+	top: -1rem;
 	left: 2rem;
 }
 
@@ -1068,7 +1078,7 @@ p {
 }
 
 .reserve h2 {
-	top: -2rem;
+	top: -1rem;
 }
 
 .reserve h3 {
@@ -1081,7 +1091,7 @@ p {
 }
 
 .r-box2 {
-	width: 70%;
+	width: 80%;
 }
 
 .tel-icon {
@@ -1101,6 +1111,7 @@ p {
 }
 
 .access h2 {
+	top: -7rem;
 	left: 2rem;
 }
 
