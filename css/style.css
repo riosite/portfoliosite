@@ -930,9 +930,6 @@ footer p {
         font-size: 32px;
         margin: 50px 0;
     }
-        header h1 {
-        z-index: 1;
-    }
     .humburger {
         width: 40px;
         height: 40px;
@@ -1149,7 +1146,7 @@ footer p {
     }
 
     .logo {
-        width: 100px;
+        width: 80px;
     }
 
     nav {
