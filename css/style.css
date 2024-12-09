@@ -10,7 +10,7 @@ html {
     scroll-padding-top: 60px;
 }
 body {
-    font-family: "游ゴシック", "Yu Gothic", "Meiryo", sans-serif;
+    font-family: "Meiryo", sans-serif;
     font-size: 16px;
 	font-weight: normal;
 	font-style: normal;
@@ -90,8 +90,8 @@ header.scroll {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: auto;
 }
 
 header nav ul {
@@ -218,8 +218,8 @@ section {
 .about-box  {
     position: absolute;
     top: 175px;
-    right: 140px;
-    width: 400px;
+    right: 125px;
+    width: 432px;
     z-index: 2;
 }
 
@@ -1037,7 +1037,7 @@ footer p {
 
     .skills-box {
         position: relative;
-        width: 80%;
+        width: 88%;
         padding-left: 0;
     }
 
@@ -1146,6 +1146,10 @@ footer p {
     header {
         height: 6rem;
         padding: 0 2rem;
+    }
+
+    .logo {
+        width: 100px;
     }
 
     nav {
