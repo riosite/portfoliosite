@@ -91,11 +91,27 @@ nav ul li a  {
 nav ul a:hover {
     background-color: rgba(255,255,255,0.5);
 }
-nav p {
+nav .btn1 {
+    width: 126px;
+    background-color: #a43e35;
+    border: 2px solid #fff;
+    box-shadow: 3px 3px 4px #3b3b3b;
     margin-left: 10px;
-
+    padding: 4px;
+    text-align: center;
+    font-family: Engravers MT,serif;
+letter-spacing: 4px;
 }
-.main-img {
+nav .btn1 a {
+    color: #fff;
+    text-decoration: none;
+}
+nav .btn1:hover {
+    translate: 3px 3px;
+    box-shadow: none;
+    transition: 0.4s;
+}
+    .main-img {
     position: relative;
     z-index: -1;
 }
