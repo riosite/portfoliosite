@@ -100,7 +100,7 @@ nav .btn1 {
     padding: 4px;
     text-align: center;
     font-family: Engravers MT,serif;
-letter-spacing: 4px;
+    letter-spacing: 4px;
 }
 nav .btn1 a {
     color: #fff;
@@ -362,6 +362,9 @@ nav {
 }
 .open nav {
     bottom: 0;
+}
+nav .btn1 {
+    margin: 0 auto;
 }
 .humburger {
     bottom: 70%;
