@@ -548,13 +548,13 @@ h3 {
     right: 0px;
     bottom: 0px;
     width: 180px;
-    opacity: 0.7;
+    opacity: 0.9;
     z-index: 10;
     display: none;
 }
 
 .pagetop:hover {
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 
@@ -1371,7 +1371,7 @@ footer p {
 
     .pagetop {
         width: 90px;
-        opacity: 0.6;
+        opacity: 0.9;
     }
 
 
