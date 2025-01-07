@@ -381,12 +381,23 @@ button {
     margin: 0 auto 6rem;
 }
 
+.works .outer2 {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto 6rem;
+}
+
 .works .contents {
     width: 47%;
 }
 
 .works .contents2 {
-    width: 27%;
+    width: 28%;
+}
+
+#resize {
+    margin-top: 5%;
 }
 
 .works .web-img,
@@ -402,6 +413,7 @@ button {
 .works .banner-img img,
 .works .logo-img img {
     transition: 0.8s;
+    width: 100%;
 }
 
 .works .web-img img:hover,
@@ -484,6 +496,11 @@ button {
 
 .detail .web-img {
     width: 80%;
+    margin: 0 auto;
+}
+
+.detail .banner-img {
+    width: 34%;
     margin: 0 auto;
 }
 
@@ -1240,10 +1257,22 @@ footer p {
         margin: 0 auto;
     }
 
+    .works .outer2 {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
     .works .contents {
         width: 100%;
         margin-bottom: 4rem;
     }
+
+    .works .contents2 {
+        width: 70%;
+        margin: 0 auto 4rem;
+    }
+
 
     .works .web-img, .works .banner-img, .works .logo-img {
         margin-bottom: 2rem;
