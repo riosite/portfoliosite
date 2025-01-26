@@ -184,19 +184,62 @@ h4  {
 .sec-ranking p {
     font-size: 2.2rem;
 }
+
 .sec-ranking .btn {
-    width: 40%;
+    width: 32%;
+    background-color: #a07329;
+    border: 2px solid #fff;
+    box-shadow: 3px 3px 4px #3b3b3b;
     margin-left: auto;
-    padding-right: 2rem;
+    margin-right: 6%;
+    padding: 4px;
+    text-align: center;
+    font-family: Engravers MT, serif;
+    letter-spacing: 2px;
+    font-size: 18px;
 }
+.sec-ranking .btn a {
+    color: #fff;
+    text-decoration: none;
+}
+.sec-ranking .btn:hover {
+    translate: 3px 3px;
+    box-shadow: none;
+    transition: 0.4s;
+}
+
 
 
 
 
 .sec-btn {
     margin: -3rem auto;
-    width: 80%;
 }
+.btn1 {
+    width: 380px;
+    background-color: #a43e35;
+    border: 2px solid #fff;
+    box-shadow: 3px 3px 4px #3b3b3b;
+    margin: 0 auto;
+    padding: 16px;
+    text-align: center;
+    font-family: Engravers MT, serif;
+    letter-spacing: 4px;
+    font-size: 22px;
+}
+.btn1 a {
+    color: #fff;
+    text-decoration: none;
+}
+.btn1:hover {
+    translate: 3px 3px;
+    box-shadow: none;
+    transition: 0.4s;
+}
+
+
+
+
 .sec-gallery .photo {
     display: flex;
     flex-wrap: wrap;
@@ -368,6 +411,14 @@ nav .btn1 {
 }
 .humburger {
     bottom: 70%;
+}
+.sec-ranking .btn {
+    width: 38%;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.btn1 {
+    width: 310px;
 }
 .photo p {
     width: 45%;
